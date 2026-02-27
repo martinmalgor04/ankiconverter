@@ -1,0 +1,27 @@
+# Anki to PDF Converter
+
+Anki to PDF Converter is a client-side web tool that converts Anki `.apkg` decks into printable PDF files.
+
+## Purpose
+- Convert Anki decks (`.apkg`) to PDF
+- Preserve card text and embedded images
+- Keep processing private by running in-browser
+
+## Tech Stack
+- Next.js + TypeScript
+- JSZip for archive parsing
+- sql.js (WASM SQLite) for reading Anki DB
+- jsPDF for PDF generation
+
+## Privacy
+- Files are processed locally in the browser
+- No card data upload is required
+
+## Maintainer
+- Name: Martin
+- GitHub: https://github.com/martinmalgor
+- Twitter/X: https://x.com/techconmartin
+
+## Project Links
+- Website: https://ankiconverter.vercel.app
+- Repository: https://github.com/martinmalgor/ankiconverter

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# LLM discovery helper
+Allow: /llms.txt
